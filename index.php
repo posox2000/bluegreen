@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse navbar-collapse-1">
         <ul class="nav navbar-nav navbar-utility">
           <li>
-            <a href="#">Status</a>
+            <img src="image.php" height=15 width=15>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-primary">
@@ -62,37 +62,6 @@
             <li>Basic</li>
           </ol>
           <img src="login.png"/>
-          <h1>Welcome to an OpenShift Application!</h1>
-          <p>The purpose of this application is to demonstrate several interesting features about OpenShift. We hope you enjoy it!</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <h2>Application Information</h2>
-          <table class="table table-striped table-bordered table-hover">
-            <thead>
-              <tr>
-                <th>Env Var</th>
-                <th>Value</th>
-              <tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Pod IP</td>
-                <td><?php echo $_SERVER['SERVER_ADDR'] ?></td>
-              </tr>
-              <tr>
-                <td>Pod Port</td>
-                <td><?php echo $_SERVER['SERVER_PORT'] ?></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <div class="col-md-6 col-md-offset-3">
-          <h2>Application Example</h2>
-          <p>
-            <img src="image.php">
-          </p>
         </div>
       </div>
         </div><!-- /col -->
